@@ -1,10 +1,10 @@
 //import { Fragment } from 'react';
 import ShowLab1 from "./pages/Lab1";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 
 export default function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   return (
     <>
@@ -19,7 +19,9 @@ export default function App() {
         <button onClick={() => setCount(2)}>Лабораторна робота №2</button>
         <button onClick={() => setCount(3)}>Лабораторна робота №3</button>
       </div>
+      <div className="infoContent">
       {count===1&&<ShowLab1 />}
+      </div>
     </>
   )
 }
