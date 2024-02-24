@@ -1,19 +1,25 @@
 //import { Fragment } from 'react';
 import ShowLab1 from "./pages/Lab1";
+import React, { useState } from 'react';
 import './App.css'
 
-function App() {
+export default function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <>
       <div className="titleText">
         <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ &quot;WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ. ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК&quot;</h1>
         <h2>Студентки групи ІО-15 Нохріної Дар&apos;ї Андріївни</h2>
+
+        <h3>{count}</h3>
       </div>
       <div className="panelPage">
-        <ShowLab1 />
+        <button onClick={() => setCount(1)}>Лабораторна робота №1</button>
+        <button onClick={() => setCount(2)}>Лабораторна робота №2</button>
+        <button onClick={() => setCount(3)}>Лабораторна робота №3</button>
       </div>
+      {count===1&&<ShowLab1 />}
     </>
   )
 }
-
-export default App;
