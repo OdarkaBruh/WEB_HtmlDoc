@@ -1,5 +1,8 @@
 //import { Fragment } from 'react';
 import ShowLab1 from "./pages/Lab1";
+import ShowLab2 from "./pages/Lab2";
+import ShowLab3 from "./pages/Lab3";
+
 import { useState } from 'react';
 import './App.css'
 
@@ -21,6 +24,8 @@ export default function App() {
       </div>
       <div className="infoContent">
       {count===1&&<ShowLab1 />}
+      {count===2&&<ShowLab2 />}
+      {count===3&&<ShowLab3 />}
       </div>
     </>
   )

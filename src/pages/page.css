@@ -1,26 +1,47 @@
 .sideNav {
-    background-color: aquamarine;
+    background-color: #E0EBFE;
     border-radius: 30px;
-    width: 100%;
     display: flex;
     justify-content: left;
     flex-direction: column;
     padding-top: 20px;
+    margin-bottom: 60px;
+    min-width: 500px;
+    min-height: 500px;
+    height: 100%
+}
+
+.sideNav h1 {
+    color: darkblue;
+    font-size: 25px;
 }
 
 .sideNav button {
+    width: 80%;
     font-size: 20px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #BED3F6;
+    
 }
 .sideNav .subButtons button {
     font-size: 15px;
     width:80%;
-    margin: 10px;
-    background-color: blueviolet;
+    margin: 6px;
+    background-color: #C5D8F8;
 }
+
 .info {
-    background-color: gainsboro;
+    background-color: #F6F6FA;
     border-radius: 30px;
     width: 100%;
     margin-left: 10px;
+}
+
+.info h1{
+    font-size: 25px;
+}
+
+.info h2{
+    font-size: 20px;
 }

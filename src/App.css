@@ -3,6 +3,13 @@
   display: flex;
 }
 
+.titleText h1 {
+  font-size: 25px;
+}
+.titleText h2 {
+  font-size: 20px;
+}
+
 
 /* STANDART */
 
