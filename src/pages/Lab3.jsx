@@ -7,7 +7,7 @@ export default function ShowLab3() {
         <>
         <sidebar>
             <div className='sideNav'>
-                <h1>LAB 3</h1>
+                <h1>Лабораторна №3</h1>
             </div>
         </sidebar>
         <div className="info">

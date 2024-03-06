@@ -10,7 +10,9 @@
   font-size: 20px;
 }
 
-
+.panelPage button {
+  margin-left: 20px;
+}
 /* STANDART */
 
 #root {

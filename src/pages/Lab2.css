@@ -1,0 +1,111 @@
+.image_preview {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+.example_code h1 {
+    margin: 30px;
+    
+}
+
+.example_code #eFont{
+    font-family: fantasy, "Bradley Hand", cursive;
+    font-size: 25px;
+}
+
+.example_code #eBorder{
+    border: 3px salmon dotted;
+    padding: 20px;
+}
+
+.example_code #eBackground{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.example_code #eTextColor{
+    color:darkred;
+}
+
+.example_code #eTable table{
+    margin:auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.example_code #eTable table, #eTable th, #eTable td {
+    border: 1px solid darkseagreen;
+    color: chocolate;
+}
+
+.example_code .firstList {
+    background-color: bisque;
+}
+
+.example_code .firstList li{
+    font-size: 25px;
+}
+
+.example_code .secondList {
+    background-color: white;
+    border-radius: 10px;
+    list-style-type: square;
+    padding: 5px;
+    margin: 5px;
+}
+
+.example_code .secondList li {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.example_code #eCorners {
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.example_code #eAnimation h2 {
+    padding:30px;
+    margin: auto;
+    background-color: darkblue;
+    width:200px;
+    border-radius: 20px;
+    color:white;
+}
+
+.example_code #eAnimation h2:hover {
+    animation-name: anim;
+    animation-duration: 4s;
+}
+
+@keyframes anim {
+    from {background-color: darkblue;}
+    to {background-color: gainsboro;}
+}
+
+.example_code #eList {
+    position: relative;
+    display: inline-block;
+    background-color: bisque;
+    width: 300px;
+    justify-self: center;
+}
+
+.example_code #eList,#eList-content {
+    border-radius: 10px;
+}
+.example_code #eList-content {
+    display: none;
+    background-color: white;
+    width: 80%;
+    padding:10px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.example_code #eList:hover #eList-content {
+    display: block;
+}
