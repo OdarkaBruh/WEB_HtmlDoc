@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab3</title>
+    <link rel="stylesheet" href="../Lab3.css">
+  </head>
+  <body>
+    <h2>Фіксована таблична верстка</h2>
+    <div class="FixedTabularLayout">
+        <table>
+            <tr>
+                <td class='TableTop' colspan="3"> 1 </td>
+            </tr>
+            <tr>
+                <td class='TableCenterSide'> 5 </td>
+                <td class='TableCenter'> 4 </td>
+                <td class='TableCenterSide'> 2 </td>
+            </tr>
+            <tr>
+                <td class='TableBottom' colspan="3"> 3 </td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Гумова таблична верстка</h2>
+    <div class="RubberTabularLayout">
+        <table>
+            <tr>
+                <td class='TableTop' colspan="3"> 1 </td>
+            </tr>
+            <tr>
+                <td class='TableCenterSide'> 5 </td>
+                <td class='TableCenter'> 4 </td>
+                <td class='TableCenterSide'> 2 </td>
+            </tr>
+            <tr>
+                <td class='TableBottom' colspan="3"> 3 </td>
+            </tr>
+        </table>
+    </div>
+    <div class='BlockLayout'>
+    <h2>Фіксована блокова верства</h2>
+            <section class="FixedBlockLayout">
+                <div class="FixedBlockLayout">
+                <div class="TableTop"> 
+                    <div class='SmallBox'> white </div>
+                    <p>1</p>
+                </div>
+                <div class="Center">
+                    <div class="CenterLeft"><p>2</p> </div>
+                    <div class="CenterRight" id="InsideBox">
+                        <div class="CenterR_Top"> red </div>
+                        <div class="CenterR_Side">
+                            <div class='CenterR_L'> <p>3</p> </div>
+                            <div class="CenterR_R"><p>4</p> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="TableBottom">
+                    <p>5</p>
+                </div>
+            </div>
+            </section>
+
+        <h2>Гумова блокова верстка</h2>
+            <section class="RubberBlockLayout">
+                <div class="RubberBlockLayout">
+                <div class="TableTop"> 
+                    <div class='SmallBox'> white </div>
+                    <p>1</p>
+                </div>
+                <div class="Center">
+                    <div class="CenterLeft"><p>2</p> </div>
+                    <div class="CenterRight" id="InsideBox">
+                        <div class="CenterR_Top"> red </div>
+                        <div class="CenterR_Side">
+                            <div class='CenterR_L'> <p>3</p> </div>
+                            <div class="CenterR_R"><p>4</p> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="TableBottom">
+                    <p>5</p>
+                </div>
+            </div>
+            </section>
+        </div>
+	<script src="index.js"></script>
+  </body>
+</html>

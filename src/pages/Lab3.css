@@ -1,0 +1,177 @@
+/* TABLE */
+
+table, th, td {
+    border: 1px solid;
+    color: black;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.TableTop, .TableBottom {
+    background-color: #87CEFA;
+}
+
+.TableCenterSide {
+    background-color: #FAFAD2;
+}
+
+
+.FixedTabularLayout table {
+    width: 500px;
+}
+
+.RubberTabularLayout table {
+    width: 85%;
+}
+
+
+
+
+.FixedTabularLayout .TableTop, .FixedTabularLayout .TableBottom {
+    width: 100%;
+}
+
+.FixedTabularLayout .TableCenterSide{
+    width: 100px;
+} 
+
+.FixedTabularLayout .TableCenter {
+    width: 400px;
+}
+
+
+.RubberTabularLayout .TableTop, .RubberTabularLayout .TableBottom {
+    width: 100%;
+}
+
+.RubberTabularLayout .TableCenterSide{
+    width: 40%;
+} 
+
+/* ================================================*/
+
+/* DIV */
+
+.FixedBlockLayout {
+    width: 600px;
+    margin: auto;
+}
+
+.BlockLayout div {
+    border: solid 1px;
+    margin: -1px;
+    border-color: #000000;
+}
+
+.BlockLayout .TableTop, .BlockLayout .TableBottom{
+    width: 100%;
+    height: 40px;
+    background-color: #FAFAD2;
+    text-align: center;
+}
+
+.BlockLayout .TableTop p{
+    text-align: right;
+    padding-right: 20px;
+}
+.BlockLayout .SmallBox {
+    margin: 5px;
+    z-index: 1;
+    float: left;
+    width: 20%;
+    background-color: #FFFFFF;
+}
+
+.BlockLayout .Center {
+    width: 100%;
+    border: none;
+    margin: 0px;
+    display: flex; 
+    height: 200px;
+}
+
+.BlockLayout .Center p{
+    text-align: center;
+    text-justify: center;
+}
+
+.BlockLayout .CenterLeft {
+    background-color: #87CEFA;
+    width: 40%;
+}
+.BlockLayout .CenterRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+.BlockLayout .CenterR_Side {
+    border: none;
+}
+
+.BlockLayout .CenterR_Top {
+    background-color: lightcoral;
+    width: 80%;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.BlockLayout .CenterR_R {
+    background-color: #87CEFA;
+}
+
+#InsideBox .CenterR_Side {
+    display: inline-flex;
+}
+
+#InsideBox .CenterR_Side div{
+    width: 100px;
+    margin: 10px;
+    height: 130px;
+}
+
+#FixedBlockLayout, #RubberBlockLayout {
+    margin: auto;
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RubberBlockLayout{
+    width: 70%;
+    margin: auto;
+}
+
+.RubberBlockLayout .TableTop {
+    width: 100%
+}
+
+.RubberBlockLayout .SmallBox {
+    width: 20%
+}
+
+.RubberBlockLayout .CenterR_Side {
+    width: 90%
+}
+
+.RubberBlockLayout .CenterRight{
+    padding: 0px;
+}
+
+.Task3_site {
+    width: 100%;
+}
+
+.Task3_site img {
+    width: 90%;
+}
