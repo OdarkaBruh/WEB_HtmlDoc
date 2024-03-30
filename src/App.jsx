@@ -14,8 +14,6 @@ export default function App() {
       <div className="titleText">
         <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ &quot;WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ. ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК&quot;</h1>
         <h2>Студентки групи ІО-15 Нохріної Дар&apos;ї Андріївни</h2>
-
-        <h3>{count}</h3>
       </div>
       <div className="panelPage">
         <button onClick={() => setCount(1)}>Лабораторна робота №1</button>

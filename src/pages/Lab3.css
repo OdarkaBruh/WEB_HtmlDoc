@@ -170,8 +170,14 @@ table {
 
 .Task3_site {
     width: 100%;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Task3_site img {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
+
 }

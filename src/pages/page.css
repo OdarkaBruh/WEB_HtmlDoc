@@ -37,6 +37,7 @@
     border-radius: 30px;
     width: 100%;
     margin-left: 10px;
+    max-width: 1000px;
 }
 
 .info h1{
