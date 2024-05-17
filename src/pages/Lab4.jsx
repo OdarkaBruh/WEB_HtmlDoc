@@ -155,19 +155,19 @@ function ShowExamples(){
     return(<>
         <h2>Десктопна</h2>
         <div className='resultImg'>
-            <img src="../img/Lab4/desc1.PNG" alt=""/>
-            <img src="../img/Lab4/desc2.PNG" alt=""/>
+            <img  src="../public/img/Lab4/desc1.PNG" alt=""/>
+            <img  src="../public/img/Lab4/desc2.PNG" alt=""/>
         </div>
         <h2>Планшетна</h2>
         <div className='resultImg'>
-            <img src="../img/Lab4/tabl1.PNG" alt=""/>
-            <img src="../img/Lab4/tabl2.PNG" alt=""/>
+            <img  src="../public/img/Lab4/tabl1.PNG" alt=""/>
+            <img  src="../public/img/Lab4/tabl2.PNG" alt=""/>
         </div>
         <h2>Мобільна</h2>
         <div className='resultImg'>
-            <img src="../img/Lab4/mob1.PNG" alt=""/>
-            <img src="../img/Lab4/mob2.PNG" alt=""/>
-            <img src="../img/Lab4/mob3.PNG" alt=""/>
+            <img  src="../public/img/Lab4/mob1.PNG" alt=""/>
+            <img  src="../public/img/Lab4/mob2.PNG" alt=""/>
+            <img  src="../public/img/Lab4/mob3.PNG" alt=""/>
         </div>
         </>)}
 

@@ -449,7 +449,7 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task1.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task1.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -488,8 +488,8 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task3_1.PNG" alt=""/>
-                <img src="../img/Lab6/task3_2.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task3_1.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task3_2.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -535,8 +535,8 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task5_1.PNG" alt=""/>
-                <img src="../img/Lab6/task5_2.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task5_1.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task5_2.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -572,7 +572,7 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task7.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task7.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -633,9 +633,9 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task8_1.PNG" alt=""/>
-                <img src="../img/Lab6/task8_2.PNG" alt=""/>
-                <img src="../img/Lab6/task8_3.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task8_1.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task8_2.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task8_3.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -659,7 +659,7 @@ function ShowCode(numLab){
         `
         return(<>
             <div className='resultImg'>
-                <img src="../img/Lab6/task9.PNG" alt=""/>
+                <img  src="../public/img/Lab6/task9.PNG" alt=""/>
             </div>
             <p><pre>{HTMLCode}</pre></p>
             </>)
@@ -744,9 +744,9 @@ function ShowCode(numLab){
         `
         return(<>
         <div className='resultImg'>
-            <img src="../img/Lab6/task10_1.PNG" alt=""/>
-            <img src="../img/Lab6/task10_2.PNG" alt=""/>
-            <img src="../img/Lab6/task10_3.PNG" alt=""/>
+            <img  src="../public/img/Lab6/task10_1.PNG" alt=""/>
+            <img  src="../public/img/Lab6/task10_2.PNG" alt=""/>
+            <img  src="../public/img/Lab6/task10_3.PNG" alt=""/>
         </div>
         <p><pre>{HTMLCode}</pre></p>
         </>)
