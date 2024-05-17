@@ -556,7 +556,7 @@ function ShowCode(numLab){
     
         function task7_task2(){
             var elementStack = [];
-            //var element = document.getElementById("categories").innerHTML.trim().split("<li class=\"item\">");
+            //var element = document.getElementById("categories").innerHTML.trim().split("<li class="item">");
             document.getElementById("categories").querySelectorAll('.item').forEach((e)=>{elementStack.push(e)})
             elementStack.forEach((e)=>{
                 var amountOfLi = e.querySelectorAll("li").length;

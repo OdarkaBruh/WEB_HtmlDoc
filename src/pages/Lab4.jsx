@@ -1,10 +1,6 @@
 import { useState } from 'react';
 import './page.css'
 import './Lab4.css'
-import img01 from '../img/Lab4/desc1.PNG'
-import img02 from '../img/Lab4/desc2.PNG'
-import img03 from '../img/Lab4/tabl1.PNG'
-import img04 from '../img/Lab4/tabl2.PNG'
 
 export default function ShowLab4() {
     const [page, setPage] = useState(0);
@@ -159,13 +155,13 @@ function ShowExamples(){
     return(<>
         <h2>Десктопна</h2>
         <div className='resultImg'>
-            <img src={img01} alt=""/>
-            <img src={img02} alt=""/>
+            <img src="../img/Lab4/desc1.PNG" alt=""/>
+            <img src="../img/Lab4/desc2.PNG" alt=""/>
         </div>
         <h2>Планшетна</h2>
         <div className='resultImg'>
-            <img src={img03} alt=""/>
-            <img src={img04} alt=""/>
+            <img src="../img/Lab4/tabl1.PNG" alt=""/>
+            <img src="../img/Lab4/tabl2.PNG" alt=""/>
         </div>
         <h2>Мобільна</h2>
         <div className='resultImg'>
