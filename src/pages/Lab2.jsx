@@ -135,7 +135,7 @@ function ShowSelectorTag(){
             <p><strong>CSS</strong>:</p>
             <pre>{CSS_code}</pre>
             <br />
-            <img src="../img/Lab2/img_scr_tag.PNG" alt="Картинка селектору тегу"/>
+            <img  src="/img/Lab2/img_scr_tag.PNG" alt="Картинка селектору тегу"/>
         </>
         )
 }
@@ -161,7 +161,7 @@ function ShowSelectorClass(){
             <p><strong>CSS</strong>:</p>
             <pre>{CSS_code}</pre>
             <br />
-            <img src="../img/Lab2/img_scr_tag.PNG" alt="Картинка селектору класу"/>
+            <img  src="/img/Lab2/img_scr_tag.PNG" alt="Картинка селектору класу"/>
         </>
         )
 }
@@ -183,7 +183,7 @@ function ShowSelectorID(){
             <p><strong>CSS</strong>:</p>
             <pre>{CSS_code}</pre>
             <br />
-            <img src="../img/Lab2/img_scr_ID.PNG" alt="Картинка селектору ID"/>
+            <img  src="/img/Lab2/img_scr_ID.PNG" alt="Картинка селектору ID"/>
         </>
         )
 }
@@ -228,7 +228,7 @@ function ShowSelectorOther(){
             <pre>{CSS_code}</pre>
             <br />
             <div className="image_preview">
-            <img src="../img/Lab2/img_scr_other.PNG" alt="Картинка селектор групування" />
+            <img  src="/img/Lab2/img_scr_other.PNG" alt="Картинка селектор групування" />
             </div>
             
         </>

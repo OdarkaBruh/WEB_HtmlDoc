@@ -189,11 +189,11 @@ function ShowForm(){
 }
 
 function ShowImage(){
-    const codeText = `  <img src="../img/qr.png" alt="Лінк на монобанку"/>`
+    const codeText = `  <img src="/img/qr.png" alt="Лінк на монобанку"/>`
     return(
         <>
             <h2>HTML-Код зображення</h2>
-            <a href="https://send.monobank.ua/jar/yzzi7qW5w" target="_blank"><img src="../img/qr.png" alt="Лінк на монобанку"/></a>
+            <a href="https://send.monobank.ua/jar/yzzi7qW5w" target="_blank"><img  src="/img/qr.png" alt="Лінк на монобанку"/></a>
             <h2>Донат на Авдіївський напрямок</h2>
             <p>Ось вас і піймав сьогоднішній донат</p>
 

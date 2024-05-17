@@ -81,12 +81,12 @@ function ShowTask2(){
         <>
             <p>Номер залікової: 1511</p>
             <p>Розмітка за допомогою таблиці:</p>
-            <img src="../img/Lab3/lab3_v1.PNG" alt="Варіант 1"/>
+            <img  src="/img/Lab3/lab3_v1.PNG" alt="Варіант 1"/>
             <ShowTask2_FixedTabularLayout />
             <ShowTask2_RubberTabularLayout />
             <hr />
             <p>Розмітку за допомогою блоків:</p>
-            <img src="../img/Lab3/lab3_v2.PNG" alt="Варіант 2"/>
+            <img  src="/img/Lab3/lab3_v2.PNG" alt="Варіант 2"/>
             <div className='BlockLayout'>
             <ShowTask2_FixedBlockLayout />
             <ShowTask2_RubberBlockLayout />
@@ -209,7 +209,7 @@ function ShowTask3(){
         <>
             <h1>Завдання №3</h1>
             <div className="Task3_site">
-            <img src="../img/Lab3/task3.PNG" alt="Варіант 3"/>
+            <img  src="/img/Lab3/task3.PNG" alt="Варіант 3"/>
             <hr />
             <ShowTask3_pages />
             <ShowTask3_HTML />
@@ -224,9 +224,9 @@ function ShowTask3_pages(){
         <>
             <h1>Завдання №3</h1>
             
-                <img src="../img/Lab3/site1.PNG" alt="Сайт скрін №1"/>
-                <img src="../img/Lab3/site2.PNG" alt="Сайт скрін №1"/>
-                <img src="../img/Lab3/site3.PNG" alt="Сайт скрін №1"/>
+                <img  src="/img/Lab3/site1.PNG" alt="Сайт скрін №1"/>
+                <img  src="/img/Lab3/site2.PNG" alt="Сайт скрін №1"/>
+                <img  src="/img/Lab3/site3.PNG" alt="Сайт скрін №1"/>
             
             <hr />
         </>
