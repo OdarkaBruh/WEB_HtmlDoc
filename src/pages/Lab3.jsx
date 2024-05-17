@@ -58,8 +58,8 @@ function ShowLabInfo(){
 
             <p><strong>Місце розташування лаби №2:</strong></p>
             <ol>
-                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Програма</a></li>
-                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">HTML-документ</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Репозиторій сайту</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">Репозиторій HTML-документу</a></li>
                 <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Завдання №3</a></li>
             </ol>
 

@@ -56,9 +56,9 @@ function ShowLabInfo1(){
 
             <p><strong>Місце розташування лаби №5:</strong></p>
             <ol>
-                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Програма</a></li>
-                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">HTML-документ</a></li>
-                <li><a href="https://odarkabruh.github.io/WEB_Lab5/" target="_blank">Завдання</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Репозиторій сайту</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">Репозиторій HTML-документу</a></li>
+                <li><a href="https://odarkabruh.github.io/WEB_Lab5/" target="_blank">Жива сторінка з виконаним завданням</a></li>
             </ol>
 
         </>
@@ -100,7 +100,7 @@ function ShowPage(){
     return(
         <>
             <div className='infoDiv'>
-                <button className="openPageButton"><a  target="_blank" href='https://odarkabruh.github.io/WEB_Lab5/'>Відкрити живу сторінку з виконаним завданням</a></button>
+                <button className="openPageButton"><a  target="_blank" href='https://odarkabruh.github.io/WEB_Lab5/'>Жива сторінка з виконаним завданням</a></button>
                     <br />
                     <hr />
                     <br />
@@ -384,9 +384,9 @@ function ShowLabInfo2(){
 
             <p><strong>Місце розташування лаби №5:</strong></p>
             <ol>
-                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Програма</a></li>
-                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">HTML-документ</a></li>
-                <li><a href="" target="_blank">Виконанне завдання</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Репозиторій сайту</a></li>
+                <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">Репозиторій HTML-документу</a></li>
+                <li><a href="https://odarkabruh.github.io/WEB_Lab5.1/" target="_blank">Жива сторінка з виконаним завданням</a></li>
             </ol>
         </>
         )
