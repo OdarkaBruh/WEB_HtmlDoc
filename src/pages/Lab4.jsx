@@ -165,9 +165,9 @@ function ShowExamples(){
         </div>
         <h2>Мобільна</h2>
         <div className='resultImg'>
-            <img  src="../public/img/Lab4/mob1.PNG" alt=""/>
-            <img  src="../public/img/Lab4/mob2.PNG" alt=""/>
-            <img  src="../public/img/Lab4/mob3.PNG" alt=""/>
+            <img  src="/img/Lab4/mob1.PNG" alt=""/>
+            <img  src="/img/Lab4/mob2.PNG" alt=""/>
+            <img  src="/img/Lab4/mob3.PNG" alt=""/>
         </div>
         </>)}
 
