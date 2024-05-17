@@ -11,11 +11,15 @@ export default function ShowLab4() {
                 <h1>Лабораторна №4</h1>
                 <button onClick={() => setPage(1)}>Тема. Мета.</button>
                 <button onClick={() => setPage(2)}>Інформація про лабораторну</button>
+                <button onClick={() => setPage(3)}>Приклади коду</button>
+                <button onClick={() => setPage(4)}>Результат</button>
             </div>
         </sidebar>
         <div className="info">
             {page===1&&<ShowLabInfo />}
             {page===2&&<ShowLabDetails />}
+            {page===3&&<ShowCode />}
+            {page===4&&<ShowExamples />}
         </div>
         </>
     )
@@ -56,4 +60,114 @@ function ShowLabDetails(){
         </>
         )
 }
+
+function ShowCode(){
+    const code1 = `
+    function toggleState(){
+        if (window.innerWidth > mobileVersion){
+            setToggle(!toggle);
+            sidebarToggle = !sidebarToggle;
+        }
+        else {
+            if (toggle){
+                setPageNum(1);
+            }
+            else {
+                setToggle(true);
+                sidebarToggle = true;
+            }
+        }
+    }
+
+    function mobileDisplay(){
+        if (window.innerWidth<=mobileVersion && pageNum !== 2){
+            return {
+                display: 'none'
+            }
+        }
+        else if (window.innerWidth<=TabletVersion && toggle){
+            return {
+                
+            }
+        }
+    `
+    const code2 = `
+    <section className='Sidebar' id="ID_Sidebar" 
+                style={{
+                    width: toggle ? '30%' 
+                    : (window.innerWidth > TabletVersion) ? '5%' 
+                    : '10%',
+                    display: (window.innerWidth<mobileVersion &&  pageNum !== 0) && 'none' }}>
+            {toggle
+                ? <FullSidebar setPageNum={setPageNum} toggleState={toggleState}/>
+                : <ShortSidebar toggleState={toggleState}/> }
+            </section>
+            `
+
+    const codeCSS1 = `
+    @media only screen and (max-width: 425px) {
+        .show-all-tasks-top {
+            display: inline-flex;
+            justify-content: space-around;
+            padding-left: 5px;
+        }
+    
+        .show-all-tasks-top img{
+            width: 100%;
+        }
+        .show-all-tasks-top .ButtonMobile{
+            padding: 10px;
+            width: 10%;
+            margin: auto 0px;
+            display: block;
+        }
+    }
+    
+    `
+
+    const codeCSS2 = `
+    @media only screen and (max-width: 425px) {
+        #ID_Sidebar {
+            width: 100% !important;
+        }
+    
+        .full-sidebar img {
+            margin: 3% auto;
+            width: 10%;
+        }
+    
+    }
+    `
+    return(<>
+        <h2>Функції в реакті, щоб відслідковувати зміни стану і які елементи відображати:</h2>
+        <pre>{code2}</pre>
+        <br/><br/>
+        <pre>{code1}</pre>
+        <br/><br/><hr /><br/><br/>
+        <h2>CSS:</h2>
+        <pre>{codeCSS1}</pre>
+        <br/><br/>
+        <pre>{codeCSS2}</pre>
+        <br/><br/><hr /><br/><br/>
+    </>)}
+
+function ShowExamples(){
+    return(<>
+        <h2>Десктопна</h2>
+        <div className='resultImg'>
+            <img src="../img/Lab4/desc1.PNG" alt=""/>
+            <img src="../img/Lab4/desc2.PNG" alt=""/>
+        </div>
+        <h2>Планшетна</h2>
+        <div className='resultImg'>
+            <img src="../img/Lab4/tabl1.PNG" alt=""/>
+            <img src="../img/Lab4/tabl2.PNG" alt=""/>
+        </div>
+        <h2>Мобільна</h2>
+        <div className='resultImg'>
+            <img src="../img/Lab4/mob1.PNG" alt=""/>
+            <img src="../img/Lab4/mob2.PNG" alt=""/>
+            <img src="../img/Lab4/mob3.PNG" alt=""/>
+        </div>
+        </>)}
 

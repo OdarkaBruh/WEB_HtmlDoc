@@ -21,13 +21,34 @@ import ShowLab2 from "./pages/Lab2";
 import ShowLab3 from "./pages/Lab3";
 import ShowLab4 from "./pages/Lab4";
 import ShowLab5 from "./pages/Lab5";
+import ShowLab6 from "./pages/Lab6";
 
 import { useState } from 'react';
 import './App.css'
 
 export default function App() {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(4);
+  const [nav, setNav] = useState(false);
 
+  function leftNav(){
+    return(
+      <div>
+        <button onClick={() => setCount(1)}>Лабораторна робота №1</button>
+        <button onClick={() => setCount(2)}>Лабораторна робота №2</button>
+        <button onClick={() => setCount(3)}>Лабораторна робота №3</button>
+        <button onClick={()=>setNav(false)}>=&#62;</button>
+      </div>)
+  }
+
+  function rightNav(){
+    return(
+      <div>
+        <button onClick={()=> setNav(true)}>&#60;=</button>
+        <button onClick={() => setCount(4)}>Лабораторна робота №4</button>
+        <button onClick={() => setCount(5)}>Лабораторна робота №5</button>
+        <button onClick={() => setCount(6)}>Лабораторна робота №6</button>
+      </div>)
+  }
   return (
     <>
       <div className="titleText">
@@ -35,11 +56,7 @@ export default function App() {
         <h2>Студентки групи ІО-15 Нохріної Дар&apos;ї Андріївни</h2>
       </div>
       <div className="panelPage">
-        <button onClick={() => setCount(1)}>Лабораторна робота №1</button>
-        <button onClick={() => setCount(2)}>Лабораторна робота №2</button>
-        <button onClick={() => setCount(3)}>Лабораторна робота №3</button>
-        <button onClick={() => setCount(4)}>Лабораторна робота №4</button>
-        <button onClick={() => setCount(5)}>Лабораторна робота №5</button>
+        {nav? leftNav() : rightNav()}
       </div>
       <div className="infoContent">
       {count===1&&<ShowLab1 />}
@@ -47,6 +64,7 @@ export default function App() {
       {count===3&&<ShowLab3 />}
       {count===4&&<ShowLab4 />}
       {count===5&&<ShowLab5 />}
+      {count===6&&<ShowLab6 />}
       </div>
     </>
   )
