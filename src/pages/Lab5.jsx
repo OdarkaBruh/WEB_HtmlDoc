@@ -691,36 +691,36 @@ function ShowLab_Result(){
     return(<>
         <h1>Завдання №1</h1>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task1.PNG" alt=""/>
+            <img  src="/img/Lab5/task1.PNG" alt=""/>
         </div>
         
         <h1>Завдання №3</h1>
         <p> Примітка: для перевірки було додано АнальнігНовіший з датою кінцевою в 2026, щоб перевірити що воно сортує саме за датою</p>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task3.PNG" alt=""/>
+            <img  src="/img/Lab5/task3.PNG" alt=""/>
         </div>
 
         <h1>Завдання №5</h1>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task5_1.PNG" alt=""/>
-            <img  src="../public/img/Lab5/task5_2.PNG" alt=""/>
+            <img  src="/img/Lab5/task5_1.PNG" alt=""/>
+            <img  src="/img/Lab5/task5_2.PNG" alt=""/>
         </div>
         
         <h1>Завдання №7</h1>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task7.PNG" alt=""/>
+            <img  src="/img/Lab5/task7.PNG" alt=""/>
         </div>
 
         <h1>Завдання №9</h1>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task9.PNG" alt=""/>
+            <img  src="/img/Lab5/task9.PNG" alt=""/>
         </div>
 
         <h1>Завдання №10</h1>
         <div className='resultImg'>
-            <img  src="../public/img/Lab5/task10_1.PNG" alt=""/>
-            <img  src="../public/img/Lab5/task10_2.PNG" alt=""/>
-            <img  src="../public/img/Lab5/task10_3.PNG" alt=""/>
+            <img  src="/img/Lab5/task10_1.PNG" alt=""/>
+            <img  src="/img/Lab5/task10_2.PNG" alt=""/>
+            <img  src="/img/Lab5/task10_3.PNG" alt=""/>
         </div>
     </>)
 }
