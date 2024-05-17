@@ -56,11 +56,11 @@ function ShowLabInfo(){
                 <li>Придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX</li>
             </ul>
 
-            <p><strong>Місце розташування лаби №2:</strong></p>
+            <p><strong>Місце розташування лаби №3:</strong></p>
             <ol>
                 <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Репозиторій сайту</a></li>
                 <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">Репозиторій HTML-документу</a></li>
-                <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Завдання №3</a></li>
+                <li><a href="https://odarkabruh.github.io/WEB_Lab3/" target="_blank">Завдання №3</a></li>
             </ol>
 
         </>
@@ -72,6 +72,7 @@ function ShowTask1(){
     return(
         <>
             <h1>Інформація про лабораторну №3</h1>
+            <p>Сайт розробляється за допомогою гумової блокової верстки з використанням flex-боксів, бо це є найзрічнішим і найбільш адаптивним варіантом.</p>
         </>
         )
 }
