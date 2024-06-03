@@ -69,6 +69,8 @@ function ShowLabInfo(){
 
             <p><strong>Місце розташування лабораторної №9:</strong></p>
             <ol>
+                <li><strong><a href="https://drive.google.com/file/d/163RpAQ6SH3ONE3FfeeswEUeMXczfTzHr/view?usp=sharing" target="_blank">Звіт за лабораторну роботу №9 (сертифікат, відповіді на питання, т.д.)</a></strong></li>
+                <br />
                 <li><a href="https://github.com/OdarkaBruh/WEB_app.git" target="_blank">Репозиторій сайту</a></li>
                 <li><a href="https://github.com/OdarkaBruh/WEB_HtmlDoc.git" target="_blank">Репозиторій HTML-документу</a></li>
                 <li><a href="https://github.com/OdarkaBruh/WEB_Lab9" target="_blank">Репозиторій курсу</a></li>
