@@ -22,6 +22,9 @@ import ShowLab3 from "./pages/Lab3";
 import ShowLab4 from "./pages/Lab4";
 import ShowLab5 from "./pages/Lab5";
 import ShowLab6 from "./pages/Lab6";
+import ShowLab7 from "./pages/Lab7";
+import ShowLab8 from "./pages/Lab8";
+import ShowLab9 from "./pages/Lab9";
 
 import { useState } from 'react';
 import './App.css'
@@ -36,6 +39,7 @@ export default function App() {
         <button onClick={() => setCount(1)}>Лабораторна робота №1</button>
         <button onClick={() => setCount(2)}>Лабораторна робота №2</button>
         <button onClick={() => setCount(3)}>Лабораторна робота №3</button>
+        <button onClick={() => setCount(4)}>Лабораторна робота №4</button>
         <button onClick={()=>setNav(false)}>=&#62;</button>
       </div>)
   }
@@ -44,9 +48,11 @@ export default function App() {
     return(
       <div>
         <button onClick={()=> setNav(true)}>&#60;=</button>
-        <button onClick={() => setCount(4)}>Лабораторна робота №4</button>
         <button onClick={() => setCount(5)}>Лабораторна робота №5</button>
         <button onClick={() => setCount(6)}>Лабораторна робота №6</button>
+        <button onClick={() => setCount(7)}>Лабораторна робота №7</button>
+        <button onClick={() => setCount(8)}>Лабораторна робота №8</button>
+        <button onClick={() => setCount(9)}>Лабораторна робота №9</button>
       </div>)
   }
   return (
@@ -65,6 +71,9 @@ export default function App() {
       {count===4&&<ShowLab4 />}
       {count===5&&<ShowLab5 />}
       {count===6&&<ShowLab6 />}
+      {count===7&&<ShowLab7 />}
+      {count===8&&<ShowLab8 />}
+      {count===9&&<ShowLab9 />}
       </div>
     </>
   )

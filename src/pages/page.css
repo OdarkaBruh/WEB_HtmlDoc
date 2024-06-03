@@ -52,6 +52,10 @@
     margin: 20px;
 }
 
+pre {
+    width: 100%;
+    max-width: 900px;
+}
 .resultImg {
     margin-bottom: 20px;
 }
@@ -68,4 +72,9 @@
 .openPageButton a {
     color: black !important;
     font-size: 20px;
+}
+
+img {
+    max-width: 900px;
+    width: 90%;
 }
